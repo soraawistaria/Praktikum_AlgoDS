@@ -14,6 +14,6 @@ int main() {
     cin >> l.a >> l.b >> l.c >> p.x >> p.y;
 
     double result = gradient(&l, &p);
-    CheckPointPosition(result);
+    cout << CheckPointPosition(result);
     
 }
