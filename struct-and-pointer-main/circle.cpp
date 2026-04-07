@@ -9,14 +9,6 @@ double distance(const Circle * c, const Point * p) {
 
 std::string CheckPointInCircle(double distance, const Circle * c) {
 
-    // if(distance == pow(c -> radius, 2)) {
-    //     return "On Circle";
-    // } else if (distance < pow(c -> radius, 2)) {
-    //     return "Inside";
-    // } else{
-    //     return "Outside";
-    // }
-
         if(distance == c -> radius) {
         return "On Circle";
     } else if (distance < c -> radius) {
