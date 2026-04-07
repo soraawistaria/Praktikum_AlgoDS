@@ -7,7 +7,7 @@ double distance(const Circle * c, const Point * p) {
     
 }
 
-std::string CheckPointPosition(double distance, const Circle * c) {
+std::string CheckPointInCircle(double distance, const Circle * c) {
 
     if(distance == pow(c -> radius, 2)) {
         return "On Circle";
