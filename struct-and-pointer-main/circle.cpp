@@ -1,7 +1,6 @@
 #include "circle.h"
 #include "point.h"
 #include <cmath>
-#define MATH_H
 
 double distance(const Circle * c, const Point * p) {
     return sqrt( pow((p -> x - c -> centre.x), 2) + pow((p -> y - c -> centre.y), 2) );
