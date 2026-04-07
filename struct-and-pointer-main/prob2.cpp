@@ -12,7 +12,8 @@ int main() {
     cin >> c.centre.x >> c.centre.y >> c.radius >> p.x >> p.y;
 
     double distances = distance(&c, &p);
-    cout << "\n" <<"d : " << distances << " " << pow(c.radius, 2) << endl; 
+    // cout << "\n" <<"d : " << distances << " " << pow(c.radius, 2) << endl;
+    cout << distance(&c, &p) << endl;
     cout << CheckPointInCircle(distances, &c);
 
 }
