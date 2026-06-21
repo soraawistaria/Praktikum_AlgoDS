@@ -1,0 +1,3 @@
+g++ -std=c++23 -O0 main.cpp data_generator.cpp  searching_algorithms.cpp reporter.cpp -o search && ./search
+
+g++ -std=c++23 -O0 main.cpp data_generator.cpp  searching_algorithms.cpp reporter.cpp -o search ; ./search
